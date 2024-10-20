@@ -63,5 +63,6 @@ a.navbar-item:focus {
 }
 
 .comparison-box img:hover {
+  cursor: url("../assets/images/folded-hands.svg"), auto;
   transform: scale(1.05);
 }
