@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
-import funnyDogFace from "../assets/images/funny-dog-face.jpg";
+import funnyDog from "../assets/images/funny-dog.jpg";
 import deliciousPizza from "../assets/images/delicious-pizza.jpg";
 
 const HomePage = () => (
@@ -20,8 +20,8 @@ const HomePage = () => (
       <div className="fixed-grid has-5-cols-desktop comparison-box">
         <div className="grid">
           <div className="cell is-col-span-2 my-auto has-text-centered">
-            <img src={funnyDogFace} alt="Funny dog face" />
-            <p className="mt-2">Funny dog face</p>
+            <img src={funnyDog} alt="Funny dog" />
+            <p className="mt-2">Funny dog</p>
           </div>
           <div className="cell m-auto is-size-3">Or</div>
           <div className="cell is-col-span-2 my-auto has-text-centered">
