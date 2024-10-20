@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+$rich-black: #03071e;
+$penn-red: #9d0208;
+$sinopia: #dc2f02;
+
+@use "bulma/sass" with (
+  $family-primary: "Shadows Into Light Two",
+  $family-secondary: "Mystery Quest",
+  $primary: $penn-red,
+  $link: $rich-black,
+  $footer-background-color: $sinopia,
+  $footer-color: #fafafa,
+  $footer-padding: 2rem 3.5rem
+);
+
+@import "bulma/sass/utilities/mixins";
+
+@font-face {
+  font-family: "Shadows Into Light Two";
+  src: url("../fonts/ShadowsIntoLightTwo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Mystery Quest";
+  src: url("../fonts/MysteryQuest-Regular.ttf");
+}
+
+div#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div#root > :not(.navbar, .footer) {
+  flex: 1;
+}
+
+.navbar,
+.navbar-menu {
+  background-color: $penn-red;
+
+  @include touch {
+    box-shadow: none;
+  }
+}
+
+a.navbar-item {
+  color: #fafafa;
+}
+
+a.navbar-item:hover,
+a.navbar-item:focus {
+  background-color: transparent;
+}
+
+.comparison-box img {
+  width: 55%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.comparison-box img:hover {
+  transform: scale(1.05);
+}
