@@ -17,17 +17,17 @@ const HomePage = () => (
         popularity!
       </h3>
 
-      <div className="fixed-grid has-5-cols-desktop comparison-box">
-        <div className="grid">
-          <div className="cell is-col-span-2 my-auto has-text-centered">
-            <img src={funnyDog} alt="Funny dog" />
-            <p className="mt-2">Funny dog</p>
-          </div>
-          <div className="cell m-auto is-size-3">Or</div>
-          <div className="cell is-col-span-2 my-auto has-text-centered">
-            <img src={deliciousPizza} alt="Delicious pizza" />
-            <p className="mt-2">Delicious pizza</p>
-          </div>
+      <div className="columns is-3-desktop comparison-box">
+        <div className="column is-two-fifths my-auto has-text-centered is-size-5-mobile is-size-4-tablet is-size-3-desktop">
+          <img src={funnyDog} alt="Funny dog" />
+          <p className="mt-2">Funny dog</p>
+        </div>
+        <div className="column m-auto is-size-4-mobile is-size-3-tablet is-size-2-desktop has-text-centered has-text-weight-semibold">
+          Or
+        </div>
+        <div className="column is-two-fifths my-auto has-text-centered is-size-5-mobile is-size-4-tablet is-size-3-desktop">
+          <img src={deliciousPizza} alt="Delicious pizza" />
+          <p className="mt-2">Delicious pizza</p>
         </div>
       </div>
 

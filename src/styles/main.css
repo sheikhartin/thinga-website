@@ -21638,12 +21638,13 @@ div#root > :not(.navbar, .footer) {
 }
 
 a.navbar-item {
+  border-radius: 1rem;
   color: #fafafa;
 }
 
 a.navbar-item:hover,
 a.navbar-item:focus {
-  background-color: transparent;
+  background-color: #03071e;
 }
 
 .comparison-box img {
