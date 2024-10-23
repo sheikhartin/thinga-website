@@ -21660,4 +21660,11 @@ a.navbar-item:focus {
   transform: scale(1.05);
 }
 
+#rank-table img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
 /*# sourceMappingURL=main.css.map */

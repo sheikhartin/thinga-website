@@ -67,3 +67,10 @@ a.navbar-item:focus {
   cursor: url("../assets/images/folded-hands.svg"), auto;
   transform: scale(1.05);
 }
+
+#rank-table img {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
