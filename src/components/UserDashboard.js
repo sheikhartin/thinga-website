@@ -24,7 +24,7 @@ const UserDashboard = () => {
       setDisplayName(response.data.profile.display_name);
       setBio(response.data.profile.bio);
     } catch (err) {
-      setError(err.message);
+      setError(err.response.data.detail || err.message);
     } finally {
       setLoading(false);
     }
@@ -48,7 +48,7 @@ const UserDashboard = () => {
       await client.patch("/users/me/", formData);
       window.location.reload();
     } catch (err) {
-      setError(err.message);
+      setError(err.response.data.detail || err.message);
     } finally {
       setLoading(false);
     }
@@ -59,7 +59,7 @@ const UserDashboard = () => {
       await client.post("/logout/");
       window.location.reload();
     } catch (err) {
-      setError(err.message);
+      setError(err.response.data.detail || err.message);
     }
   };
 

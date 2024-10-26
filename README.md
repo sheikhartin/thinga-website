@@ -8,6 +8,28 @@
 
 Because of an article, this project and its API was formed. Here you can compare things and give them a positive vote to make them more popular.
 
+### How to Use
+
+1. Set up the back-end:
+
+- Follow the setup instructions in the [Thinga repository](https://github.com/sheikhartin/thinga) to run the back-end server.
+
+2. Clone and run the front-end:
+
+```bash
+git clone https://github.com/sheikhartin/thinga-website.git \
+&& cd thinga-website \
+&& npm install \
+&& npm start
+```
+
+3. Access the website:
+
+- Open your browser and go to http://localhost:3000 (or the specified port).
+- Navigate to `/account` to login or register.
+- Play the game at `/play`.
+- View top-ranked images at `/top-ranks`.
+
 ### License
 
 This project is licensed under the MIT license found in the [LICENSE](LICENSE) file in the root directory of this repository.

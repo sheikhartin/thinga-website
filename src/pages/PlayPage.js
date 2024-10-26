@@ -92,13 +92,17 @@ const PlayGamePage = () => {
           </div>
         </div>
 
-        <div className="container mt-4 has-text-centered">
-          <Link to="/top-ranks" className="button is-link mr-3">
-            View top ranks
-          </Link>
-          <button className="button is-link" onClick={fetchRandomImages}>
-            Get new images
-          </button>
+        <div className="field is-grouped is-grouped-centered mt-4">
+          <div className="control">
+            <Link to="/top-ranks" className="button is-link mr-3">
+              View top ranks
+            </Link>
+          </div>
+          <div className="control">
+            <button className="button is-link" onClick={fetchRandomImages}>
+              Get new images
+            </button>
+          </div>
         </div>
       </section>
     </>

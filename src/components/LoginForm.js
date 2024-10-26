@@ -20,7 +20,7 @@ const LoginForm = () => {
       });
       window.location.reload();
     } catch (err) {
-      setError(err.message);
+      setError(err.response.data.detail || err.message);
     } finally {
       setLoading(false);
     }

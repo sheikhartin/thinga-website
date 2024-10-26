@@ -20,8 +20,11 @@ const AccountPage = () => {
         await client.get("/users/me/");
         setIsLoggedIn(true);
       } catch (err) {
+        if (err.response.status === 401) {
+          Cookies.remove("access_token");
+        }
         setIsLoggedIn(false);
-        setError(err.message);
+        setError(err.response.data.detail || err.message);
       } finally {
         setLoading(false);
       }
