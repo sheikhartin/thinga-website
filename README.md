@@ -33,12 +33,12 @@ git clone https://github.com/sheikhartin/thinga-website.git \
 ### Screenshots
 
 <div align="center">
-  <img src="https://gist.github.com/user-attachments/assets/455d341a-5598-42df-a4ec-302e5ed6e15f" alt="Homepage">
-  <img src="https://gist.github.com/user-attachments/assets/801bfef8-de0e-4451-81c1-adaae9350a1b" alt="Login form">
-  <img src="https://gist.github.com/user-attachments/assets/e82e3410-97b0-48ae-bec9-1e162292073b" alt="Registration form">
-  <img src="https://gist.github.com/user-attachments/assets/ee094d9c-d556-4ec6-8f7f-f8d600aba7f1" alt="User dashboard">
-  <img src="https://gist.github.com/user-attachments/assets/d844b7ee-df3c-400b-91b5-e97a1ee3b223" alt="Top-ranked things">
-  <img src="https://gist.github.com/user-attachments/assets/f5fb0456-27e2-4532-a8e3-d06d1266f881" alt="The game">
+  <img src="https://github.com/user-attachments/assets/f00492c8-bbc2-46fb-8724-beb498c4e80c" alt="Homepage" />
+  <img src="https://github.com/user-attachments/assets/eb495f21-0d4e-4db4-89da-10f214b3e087" alt="Login form" />
+  <img src="https://github.com/user-attachments/assets/04e35414-31c1-463e-95a5-3a184b4f7111" alt="Registration form" />
+  <img src="https://github.com/user-attachments/assets/6852a77a-e4c8-4e04-88d0-3206d60a863b" alt="User dashboard" />
+  <img src="https://github.com/user-attachments/assets/2b50a88a-2380-4357-b465-051f68cec189" alt="Top-ranked things" />
+  <img src="https://github.com/user-attachments/assets/ce638d95-e4f3-49ef-9cc9-73d1e688176b" alt="The game" />
 </div>
 
 ### License
