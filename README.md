@@ -30,6 +30,17 @@ git clone https://github.com/sheikhartin/thinga-website.git \
 - Play the game at `/play`.
 - View top-ranked images at `/top-ranks`.
 
+### Screenshots
+
+<div align="center">
+  <img src="https://gist.github.com/user-attachments/assets/455d341a-5598-42df-a4ec-302e5ed6e15f" alt="Homepage">
+  <img src="https://gist.github.com/user-attachments/assets/801bfef8-de0e-4451-81c1-adaae9350a1b" alt="Login form">
+  <img src="https://gist.github.com/user-attachments/assets/e82e3410-97b0-48ae-bec9-1e162292073b" alt="Registration form">
+  <img src="https://gist.github.com/user-attachments/assets/ee094d9c-d556-4ec6-8f7f-f8d600aba7f1" alt="User dashboard">
+  <img src="https://gist.github.com/user-attachments/assets/d844b7ee-df3c-400b-91b5-e97a1ee3b223" alt="Top-ranked things">
+  <img src="https://gist.github.com/user-attachments/assets/f5fb0456-27e2-4532-a8e3-d06d1266f881" alt="The game">
+</div>
+
 ### License
 
 This project is licensed under the MIT license found in the [LICENSE](LICENSE) file in the root directory of this repository.
